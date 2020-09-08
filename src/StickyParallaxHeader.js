@@ -285,6 +285,7 @@ class StickyParallaxHeader extends Component {
         style={{
           height: backgroundHeight,
           backgroundColor: tabsContainerBackgroundColor,
+          position: 'absolute',
           ...(backgroundImage && styles.transparentBackground)
         }}
       >
